@@ -28,6 +28,7 @@ public class ParseIntegers {
                 justWords += next + " ";
             }
         }
+        justWords = justWords.substring(0,justWords.length()-1);
         System.out.println("Sum is " + sum);
         System.out.println("Just words:" + justWords);
     }
